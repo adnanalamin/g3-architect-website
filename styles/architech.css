@@ -12,7 +12,7 @@
   border-radius: 8px;
   background: #ff900e;
   border: none;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   color: #fff;
   font-weight: 600;
   cursor: pointer;
@@ -58,10 +58,40 @@ nav li a {
   font-size: 4rem;
   font-weight: 700;
   color: #131313;
+  margin-top: 70px;
 }
 .banner-description {
   font-size: 1rem;
   color: #727272;
   font-weight: 400;
+  margin: 30px 0;
+}
+.banner img {
+    margin-top: 20px;
+    width: 100%;
 }
 /* Banner section style End */
+
+/* Responsive quarey */
+
+/* Mobile device */
+@media screen and (max-width: 576px) {
+    header{
+        max-width: 100%;
+        width: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* Tablet and mediam device */
+
+@media screen and (min-width:576) and (max-width:960px) {
+    header{
+        width: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
