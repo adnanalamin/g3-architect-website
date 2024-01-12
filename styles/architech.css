@@ -1,6 +1,67 @@
 /* Work Sans Font form Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
+/* Shared style */
 * {
   font-family: "Work Sans", sans-serif;
+  padding: 0;
+  margin: 0;
 }
+.btn-primary {
+  padding: 20px 25px;
+  border-radius: 8px;
+  background: #ff900e;
+  border: none;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Header section style start */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
+nav > ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+/* Header section style End */
+/* Banner section style Start */
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-description {
+  font-size: 1rem;
+  color: #727272;
+  font-weight: 400;
+}
+/* Banner section style End */
